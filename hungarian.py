@@ -98,12 +98,13 @@ df_final['target'] = y
 
 # STREAMLIT
 st.set_page_config(
-  page_title = "Hungarian Heart Disease",
+  page_title = "KNN Heart Disease A11.2020.12421",
   page_icon = ":heart:"
+  bg_color ="white"
 )
 
-st.title("Hungarian Heart Disease")
-st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]% (:red[_Do not copy outright_])")
+st.title("KNN Heart Disease")
+st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]%")
 st.write("")
 
 tab1, tab2 = st.tabs(["Single-predict", "Multi-predict"])
