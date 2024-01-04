@@ -99,9 +99,7 @@ df_final['target'] = y
 # STREAMLIT
 st.set_page_config(
   page_title = "KNN Heart Disease A11.2020.12421",
-  page_icon = ":heart:",
-  bg_color ="white"
-)
+  page_icon = ":heart:")
 
 st.title("KNN Heart Disease")
 st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]%")
